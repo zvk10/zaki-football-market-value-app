@@ -44,7 +44,7 @@ Kaggle「player-scores」(CC0、週次更新)
 ### 2.2 秘匿情報(Secrets)
 | 名前 | 登録先 | 内容 |
 |---|---|---|
-| `KAGGLE_USERNAME` / `KAGGLE_KEY` | GitHub Secrets | Kaggle API認証 |
+| `KAGGLE_API_TOKEN` | GitHub Secrets | Kaggle API認証(APIトークン) |
 | `SUPABASE_DB_URL` | GitHub Secrets | 書き込み用接続文字列(セッションモード) |
 | `connections.supabase.url` | Streamlit Cloud Secrets | 読み込み用接続文字列(セッションモード) |
 

@@ -34,7 +34,7 @@ Kaggle(データソース)
 
 - GitHub Actionsは「定期的にPythonスクリプトを実行する場所」としてのみ使う。リポジトリへのCSVコミットは行わない
 - Supabaseは素のPostgreSQLとして使う。Auth機能などの付帯機能は使用しない
-- Kaggle API認証情報、Supabase接続文字列はGitHub SecretsとStreamlit Cloud Secretsでそれぞれ管理する(同じ接続文字列を両方に登録する)
+- Kaggle API認証情報(`KAGGLE_API_TOKEN`)、Supabase接続文字列はGitHub SecretsとStreamlit Cloud Secretsでそれぞれ管理する(同じ接続文字列を両方に登録する)
 
 ## テーブル設計の方針
 
